@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="header__menu menu">
+                    <ul class="menu__list menu-list">
+                        <li class="menu-list__item">
+                            <a class="menu-list__link" href="#">
+                                Головна
+                            </a>
+                        </li>
+                        <li class="menu-list__item">
+                            <a class="menu-list__link" href="#">
+                                Про нас
+                            </a>
+                        </li>
+                        <li class="menu-list__item">
+                            <button class="menu-list__btn">
+                                <span>
+                                    Обладнання
+                                </span>
+                                <svg width="15" height="9" viewBox="0 0 15 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.7144 1L7.21436 8L0.714356 0.999999" stroke="#0B0B0B" />
+                                </svg>
+                            </button>
+                            <ul class="menu-list__sublist menu-list-sublist">
+                                <li class="menu-list-sublist__item">
+                                    <button class="menu-list-sublist__btn" type="button">
+                                        <span>
+                                            Для АШМД
+                                        </span>
+                                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                fill="white" />
+                                        </svg>
+                                    </button>
+                                    <ul class="menu-list-sublist__list">
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати ШВЛ
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Дефібрилятори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Аспіратори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати СЛР
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-list-sublist__item">
+                                    <button class="menu-list-sublist__btn" type="button">
+                                        <span>
+                                            Операційне
+                                        </span>
+                                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                fill="white" />
+                                        </svg>
+                                    </button>
+                                    <ul class="menu-list-sublist__list">
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати ШВЛ
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Дефібрилятори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Аспіратори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати СЛР
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-list-sublist__item">
+                                    <button class="menu-list-sublist__btn" type="button">
+                                        <span>
+                                            Реанімаційне
+                                        </span>
+                                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                fill="white" />
+                                        </svg>
+                                    </button>
+                                    <ul class="menu-list-sublist__list">
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати ШВЛ
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Дефібрилятори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Аспіратори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати СЛР
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-list-sublist__item">
+                                    <button class="menu-list-sublist__btn" type="button">
+                                        <span>
+                                            Слухові апарати
+                                        </span>
+                                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                fill="white" />
+                                        </svg>
+                                    </button>
+                                    <ul class="menu-list-sublist__list">
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати ШВЛ
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Дефібрилятори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Аспіратори
+                                            </a>
+                                        </li>
+                                        <li class="menu-list-sublist__list-item">
+                                            <a class="menu-list-sublist__list-link" href="#">
+                                                Апарати СЛР
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-list__item">
+                            <a class="menu-list__link" href="#">
+                                Контакти
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header__logo" href="#">
+                    <img class="logo__img" src="images/logo.svg" alt="logo">
+                </a>
+                <form class="header__form" action="#">
+                    <button class="header__form-btn" type="button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_101_15)">
+                                <path
+                                    d="M10.1486 19.44C15.2801 19.44 19.44 15.2801 19.44 10.1486C19.44 5.01709 15.2801 0.857178 10.1486 0.857178C5.01706 0.857178 0.857147 5.01709 0.857147 10.1486C0.857147 15.2801 5.01706 19.44 10.1486 19.44Z"
+                                    stroke="#0B0B0B" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M23.1429 23.1429L16.7143 16.7144" stroke="#0B0B0B" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_101_15">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </button>
+                    <input class="header__form-input" type="text" name="" id="">
+                </form>
+                <div class="header__lang header-lang">
+                    <div class="header-lang__top">
+                        <p class="header-lang__top-text">
+                            UK
+                        </p>
+                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.7144 1L7.21436 8L0.714356 0.999999" stroke="#0B0B0B" />
+                        </svg>
+                    </div>
+                    <div class="header-lang__inner">
+                        <button class="header-lang__btn" type="button">
+                            UK
+                        </button>
+                        <button class="header-lang__btn" type="button">
+                            RU
+                        </button>
+                    </div>
+                </div>
+                <a class="header__link" href="tel:+380502431291">
+                    +38 050 243 12 91
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <main class="main">
+            <section class="main__section-top section-top">
+                <div class="big-container">
+                    <div class="section-top__swiper section-top-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="section-top-swiper__slide section-top-slide  swiper-slide">
+                                <div class="section-top-slide__box section-top-slide-box">
+                                    <img class="section-top-slide-box__img" src="images/section-top-img.jpg" alt="img">
+                                    <div class="container">
+                                        <div class="section-top-slide-box__inner">
+                                            <h1 class="section-top-slide-box__title">
+                                                HEALTH DESIGN
+                                            </h1>
+                                            <p class="section-top-slide-box__text">
+                                                медичне та лабораторне обладнання
+                                                від світових виробників
+                                            </p>
+                                            <a class="section-top-slide-box__link btn" href="#">
+                                                <span>
+                                                    каталог
+                                                </span>
+                                                <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-top-swiper__slide section-top-slide  swiper-slide">
+                                <div class="section-top-slide__box section-top-slide-box">
+                                    <img class="section-top-slide-box__img" src="images/section-top-img.jpg" alt="img">
+                                    <div class="container">
+                                        <div class="section-top-slide-box__inner">
+                                            <h1 class="section-top-slide-box__title">
+                                                HEALTH DESIGN
+                                            </h1>
+                                            <p class="section-top-slide-box__text">
+                                                медичне та лабораторне обладнання
+                                                від світових виробників
+                                            </p>
+                                            <a class="section-top-slide-box__link btn" href="#">
+                                                <span>
+                                                    каталог
+                                                </span>
+                                                <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-top-swiper__slide section-top-slide  swiper-slide">
+                                <div class="section-top-slide__box section-top-slide-box">
+                                    <img class="section-top-slide-box__img" src="images/section-top-img.jpg" alt="img">
+                                    <div class="container">
+                                        <div class="section-top-slide-box__inner">
+                                            <h1 class="section-top-slide-box__title">
+                                                HEALTH DESIGN
+                                            </h1>
+                                            <p class="section-top-slide-box__text">
+                                                медичне та лабораторне обладнання
+                                                від світових виробників
+                                            </p>
+                                            <a class="section-top-slide-box__link btn" href="#">
+                                                <span>
+                                                    каталог
+                                                </span>
+                                                <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-top-swiper__slide section-top-slide  swiper-slide">
+                                <div class="section-top-slide__box section-top-slide-box">
+                                    <img class="section-top-slide-box__img" src="images/section-top-img.jpg" alt="img">
+                                    <div class="container">
+                                        <div class="section-top-slide-box__inner">
+                                            <h1 class="section-top-slide-box__title">
+                                                HEALTH DESIGN
+                                            </h1>
+                                            <p class="section-top-slide-box__text">
+                                                медичне та лабораторне обладнання
+                                                від світових виробників
+                                            </p>
+                                            <a class="section-top-slide-box__link btn" href="#">
+                                                <span>
+                                                    каталог
+                                                </span>
+                                                <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-top-swiper__pagination swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__about about">
+                <div class="big-container">
+                    <div class="about__inner">
+                        <div class="about__content about-content">
+                            <div class="about-content__top heading-top">
+                                <h2 class="heading-top__title">
+                                    Про нас
+                                </h2>
+                                <p class="heading-top__text">
+                                    РІШЕННЯ, ЯКІ Вносять ЗМІНИ
+                                </p>
+                            </div>
+                            <p class="about-content__text">
+                                «Health Design» - один з провідних постачальників медичного <br>
+                                обладнання в Україні. З
+                                початку заснування компанії у 2013 році, ми займаємося активним просуванням та
+                                обслуговуванням медичного та лабораторного обладнання. У співпраці зі світовими
+                                брендами та виробниками, наша компанія реалізувала безліч проектів та
+                                зарекомендувала себе як надійного та ефективного партнера.
+                            </p>
+                            <a class="about-content__btn" href="#">
+                                <span>
+                                    Більше про нас
+                                </span>
+                                <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                        fill="#FE0000" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="about__img">
+                            <img class="about__img-image" src="images/about-img.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__advantages advantages">
+                <div class="container">
+                    <div class="advantages__inner">
+                        <div class="advantages__item">
+                            <p class="advantages__item-text">
+                                більше <span> 10</span>
+                                років на ринку
+                            </p>
+                        </div>
+                        <div class="advantages__item">
+                            <p class="advantages__item-text">
+                                більше <span> 15</span>
+                                постійних клієнтів
+                            </p>
+                        </div>
+                        <div class="advantages__item">
+                            <p class="advantages__item-text">
+                                більше <span> 30 </span>
+                                масштабних проектів
+                            </p>
+                        </div>
+                        <div class="advantages__item">
+                            <p class="advantages__item-text">
+                                більше <span> 45 </span>
+                                видів обладнання
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__equipment equipment">
+                <div class="container">
+                    <div class="equipment__top heading-top">
+                        <h2 class="heading-top__title">
+                            обладнання
+                        </h2>
+                        <p class="heading-top__text">
+                            впровадження
+                            нових технологій
+                        </p>
+                    </div>
+                    <div class="equipment__inner">
+                        <a class="equipment__item equipment-item" href="#">
+                            <div class="equipment-item__img">
+                                <img class="equipment-item__img-image" src="images/equipment-img-1.jpg" alt="img">
+                            </div>
+                            <div class="equipment-item__box">
+                                <p class="equipment-item__box-count">
+                                    01
+                                </p>
+                                <p class="equipment-item__box-text">
+                                    Обладнання
+                                    для АШМД
+                                </p>
+                                <p class="equipment-item__box-details">
+                                    <span>
+                                        Детальніше
+                                    </span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </p>
+                            </div>
+                        </a>
+                        <a class="equipment-item" href="#">
+                            <div class="equipment-item__img">
+                                <img class="equipment-item__img-image" src="images/equipment-img-2.jpg" alt="img">
+                            </div>
+                            <div class="equipment-item__box">
+                                <p class="equipment-item__box-count">
+                                    02
+                                </p>
+                                <p class="equipment-item__box-text">
+                                    Реанімаційне
+                                    обладнання
+                                </p>
+                                <p class="equipment-item__box-details">
+                                    <span>
+                                        Детальніше
+                                    </span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </p>
+                            </div>
+                        </a>
+                        <a class="equipment-item" href="#">
+                            <div class="equipment-item__img">
+                                <img class="equipment-item__img-image" src="images/equipment-img-3.jpg" alt="img">
+                            </div>
+                            <div class="equipment-item__box">
+                                <p class="equipment-item__box-count">
+                                    03
+                                </p>
+                                <p class="equipment-item__box-text">
+                                    Операційне
+                                    обладнання
+                                </p>
+                                <p class="equipment-item__box-details">
+                                    <span>
+                                        Детальніше
+                                    </span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </p>
+                            </div>
+                        </a>
+                        <a class="equipment-item" href="#">
+                            <div class="equipment-item__img">
+                                <img class="equipment-item__img-image" src="images/equipment-img-4.jpg" alt="img">
+                            </div>
+                            <div class="equipment-item__box">
+                                <p class="equipment-item__box-count">
+                                    04
+                                </p>
+                                <p class="equipment-item__box-text">
+                                    Слухові
+                                    апарати
+                                </p>
+                                <p class="equipment-item__box-details">
+                                    <span>
+                                        Детальніше
+                                    </span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="main__projects projects">
+                <div class="big-container">
+                    <div class="projects__top heading-top">
+                        <h2 class="heading-top__title">
+                            наші проекти
+                        </h2>
+                        <p class="heading-top__text">
+                            реалізація медичних
+                            проектів
+                        </p>
+                    </div>
+                    <p class="projects__text">
+                        «Health Design» надає широкий спектр діагностичного, операційного та реанімаційного обладнання.
+                        Обладнання, яке ми пропонуємо від наших партнерів, відрізняється найвищим рівнем надійності та
+                        найвищим ступенем ефективності виявлення захворювань на ранніх стадіях.
+                    </p>
+                    <a class="projects__btn" href="#">
+                        <span>
+                            Більше проектів
+                        </span>
+                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                fill="#FE0000" />
+                        </svg>
+                    </a>
+                    <div class="projects-swiper__pagination swiper-pagination"></div>
+                    <div class="projects__swiper projects-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="projects-swiper__slide projects-slide swiper-slide">
+                                <img class="projects-slide__img" src="images/projects-swiper-img-1.jpg" alt="img">
+                            </div>
+                            <div class="projects-swiper__slide projects-slide swiper-slide">
+                                <img class="projects-slide__img" src="images/projects-swiper-img-2.jpg" alt="img">
+                            </div>
+                            <div class="projects-swiper__slide projects-slide swiper-slide">
+                                <img class="projects-slide__img" src="images/projects-swiper-img-1.jpg" alt="img">
+                            </div>
+                            <div class="projects-swiper__slide projects-slide swiper-slide">
+                                <img class="projects-slide__img" src="images/projects-swiper-img-2.jpg" alt="img">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="main__partners partners">
+                <div class="container">
+                    <div class="partners__top heading-top">
+                        <h2 class="heading-top__title">
+                            Наші Партнери
+                        </h2>
+                        <p class="heading-top__text">
+                            тільки найкращі
+                            виробники
+                        </p>
+                    </div>
+                    <p class="partners__text">
+                        Наша компанія не стоїть на місці та регулярно залучає до співпраці нових виробників. Ми
+                        розширюємо асортимент продукції та знаходимо нові рішення для наших клієнтів, орієнтуючись на
+                        їхні потреби.
+                    </p>
+                </div>
+                <div class="big-container">
+                    <div class="partners__swiper partners-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <div class="partners-swiper__slide partners-slide swiper-slide">
+                                <img class="partners-slide__img" src="images/partners-1.png" alt="img">
+                            </div>
+                            <div class="partners-swiper__slide partners-slide swiper-slide">
+                                <img class="partners-slide__img" src="images/partners-2.png" alt="img">
+                            </div>
+                            <div class="partners-swiper__slide partners-slide swiper-slide">
+                                <img class="partners-slide__img" src="images/partners-3.png" alt="img">
+                            </div>
+                            <div class="partners-swiper__slide partners-slide swiper-slide">
+                                <img class="partners-slide__img" src="images/partners-4.png" alt="img">
+                            </div>
+                            <div class="partners-swiper__slide partners-slide swiper-slide">
+                                <img class="partners-slide__img" src="images/partners-5.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__contact contact">
+                <div class="container">
+                    <div class="contact__inner">
+                        <div class="contact__img">
+                            <img class="contact__img-image" src="images/contact-img.jpg" alt="img">
+                        </div>
+                        <form class="contact__form contact-form" action="#">
+                            <h2 class="contact-form__title">
+                                виникли питання? будемо РАДІ ВІДПОВІСТИ!
+                            </h2>
+                            <input class="contact-form__input" type="text" placeholder="Ім'я">
+                            <input class="contact-form__input" type="tel" placeholder="Телефон">
+                            <input class="contact-form__input" type="email" placeholder="E-mail">
+                            <textarea class="contact-form__textarea" name="" id="" cols="30" rows="5"
+                                placeholder="Коментар"></textarea>
+                            <button class="contact__btn btn" type="submit">
+                                <span>
+                                    відправити
+                                </span>
+                                <span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="main__top top">
+                <div class="container">
+                    <div class="top__heading heading-top">
+                        <h2 class="heading-top__title">
+                            топ продажів
+                        </h2>
+                        <p class="heading-top__text">
+                            тільки найкращі
+                            товари
+                        </p>
+                    </div>
+                    <div class="top__inner">
+                        <a href="#" class="top__item top-item">
+                            <div class="top-item__img">
+                                <img class="top-item__img-image" src="images/top-img-1.png" alt="img">
+                            </div>
+                            <p class="top-item__suptext">
+                                TOP
+                            </p>
+                            <h3 class="top-item__title">
+                                Ambulanc
+                            </h3>
+                            <p class="top-item__text">
+                                Апарат штучної вентиляції легень Т6
+                            </p>
+                            <div class="top-item__btn btn">
+                                <span>
+                                    Детальніше
+                                </span>
+                                <span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="top__item top-item">
+                            <div class="top-item__img">
+                                <img class="top-item__img-image" src="images/top-img-2.png" alt="img">
+                            </div>
+                            <p class="top-item__suptext">
+                                TOP
+                            </p>
+                            <h3 class="top-item__title">
+                                Ambulanc
+                            </h3>
+                            <p class="top-item__text">
+                                Апарат штучної вентиляції легень Т5
+                            </p>
+                            <div class="top-item__btn btn">
+                                <span>
+                                    Детальніше
+                                </span>
+                                <span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="top__item top-item">
+                            <div class="top-item__img">
+                                <img class="top-item__img-image" src="images/top-img-3.png" alt="img">
+                            </div>
+                            <p class="top-item__suptext">
+                                TOP
+                            </p>
+                            <h3 class="top-item__title">
+                                Ambulanc
+                            </h3>
+                            <p class="top-item__text">
+                                Апарат штучної вентиляції легень Т7
+                            </p>
+                            <div class="top-item__btn btn">
+                                <span>
+                                    Детальніше
+                                </span>
+                                <span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="#" class="top__item top-item">
+                            <div class="top-item__img">
+                                <img class="top-item__img-image" src="images/top-img-4.png" alt="img">
+                            </div>
+                            <p class="top-item__suptext">
+                                TOP
+                            </p>
+                            <h3 class="top-item__title">
+                                Ambulanc
+                            </h3>
+                            <p class="top-item__text">
+                                Дефібрилятор-монітор i6
+                            </p>
+                            <div class="top-item__btn btn">
+                                <span>
+                                    Детальніше
+                                </span>
+                                <span>
+                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <form class="contact__form contact-form" id="contact-form" action="#">
+                <h2 class="contact-form__title">
+                    виникли питання? будемо РАДІ ВІДПОВІСТИ!
+                </h2>
+                <input class="contact-form__input" type="text" placeholder="Ім'я">
+                <input class="contact-form__input" type="tel" placeholder="Телефон">
+                <input class="contact-form__input" type="email" placeholder="E-mail">
+                <textarea class="contact-form__textarea" name="" id="" cols="30" rows="5"
+                    placeholder="Коментар"></textarea>
+                <button class="contact__btn btn" type="submit">
+                    <span>
+                        відправити
+                    </span>
+                    <span>
+                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </button>
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <a class="footer__logo logo" href="#">
+                    <img class="logo__img" src="images/logo.svg" alt="logo">
+                </a>
+                <div class="footer__inner">
+                    <div class="footer__box footer-box">
+                        <p class="footer-box__text">
+                            Ми надаємо широкий спектр діагностичного, операційного та реанімаційного обладнання!
+                        </p>
+                        <a class="footer-box__adress" href="#">
+                            м.Київ, вул.Волоська, 2/19, офіс 3
+                            info@healthdesign.com.ua
+
+                        </a>
+                        <a class="footer-box__phone" href="tel:+380502431291">
+                            +38 050 243 12 91
+                        </a>
+                        <div class="footer-box__socials">
+                            <a class="footer-box__socials-link" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_0_199)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 4.8C0 3.52696 0.505713 2.30606 1.40589 1.40589C2.30606 0.505713 3.52696 0 4.8 0H19.2C20.473 0 21.6939 0.505713 22.5941 1.40589C23.4943 2.30606 24 3.52696 24 4.8V19.2C24 20.473 23.4943 21.6939 22.5941 22.5941C21.6939 23.4943 20.473 24 19.2 24H4.8C3.52696 24 2.30606 23.4943 1.40589 22.5941C0.505713 21.6939 0 20.473 0 19.2V4.8ZM4.8 2.4C4.16348 2.4 3.55303 2.65286 3.10294 3.10294C2.65286 3.55303 2.4 4.16348 2.4 4.8V19.2C2.4 19.8365 2.65286 20.447 3.10294 20.8971C3.55303 21.3471 4.16348 21.6 4.8 21.6H19.2C19.8365 21.6 20.447 21.3471 20.8971 20.8971C21.3471 20.447 21.6 19.8365 21.6 19.2V4.8C21.6 4.16348 21.3471 3.55303 20.8971 3.10294C20.447 2.65286 19.8365 2.4 19.2 2.4H4.8ZM12 8.4C11.0452 8.4 10.1295 8.77928 9.45442 9.45442C8.77928 10.1295 8.4 11.0452 8.4 12C8.4 12.9548 8.77928 13.8705 9.45442 14.5456C10.1295 15.2207 11.0452 15.6 12 15.6C12.9548 15.6 13.8705 15.2207 14.5456 14.5456C15.2207 13.8705 15.6 12.9548 15.6 12C15.6 11.0452 15.2207 10.1295 14.5456 9.45442C13.8705 8.77928 12.9548 8.4 12 8.4ZM6 12C6 10.4087 6.63214 8.88258 7.75736 7.75736C8.88258 6.63214 10.4087 6 12 6C13.5913 6 15.1174 6.63214 16.2426 7.75736C17.3679 8.88258 18 10.4087 18 12C18 13.5913 17.3679 15.1174 16.2426 16.2426C15.1174 17.3679 13.5913 18 12 18C10.4087 18 8.88258 17.3679 7.75736 16.2426C6.63214 15.1174 6 13.5913 6 12ZM18.6 7.2C19.0774 7.2 19.5352 7.01036 19.8728 6.67279C20.2104 6.33523 20.4 5.87739 20.4 5.4C20.4 4.92261 20.2104 4.46477 19.8728 4.12721C19.5352 3.78964 19.0774 3.6 18.6 3.6C18.1226 3.6 17.6648 3.78964 17.3272 4.12721C16.9896 4.46477 16.8 4.92261 16.8 5.4C16.8 5.87739 16.9896 6.33523 17.3272 6.67279C17.6648 7.01036 18.1226 7.2 18.6 7.2Z"
+                                            fill="#FE0000" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_0_199">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="footer-box__socials-link" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_0_197)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0 4.8C0 3.52696 0.505713 2.30606 1.40589 1.40589C2.30606 0.505713 3.52696 0 4.8 0H19.2C20.473 0 21.6939 0.505713 22.5941 1.40589C23.4943 2.30606 24 3.52696 24 4.8V19.2C24 20.473 23.4943 21.6939 22.5941 22.5941C21.6939 23.4943 20.473 24 19.2 24H4.8C3.52696 24 2.30606 23.4943 1.40589 22.5941C0.505713 21.6939 0 20.473 0 19.2V4.8ZM4.8 2.4C4.16348 2.4 3.55303 2.65286 3.10294 3.10294C2.65286 3.55303 2.4 4.16348 2.4 4.8V19.2C2.4 19.8365 2.65286 20.447 3.10294 20.8971C3.55303 21.3471 4.16348 21.6 4.8 21.6H12V13.2H10.8C10.4817 13.2 10.1765 13.0736 9.95147 12.8485C9.72643 12.6235 9.6 12.3183 9.6 12C9.6 11.6817 9.72643 11.3765 9.95147 11.1515C10.1765 10.9264 10.4817 10.8 10.8 10.8H12V9C12 7.88609 12.4425 6.8178 13.2302 6.03015C14.0178 5.2425 15.0861 4.8 16.2 4.8H16.92C17.2383 4.8 17.5435 4.92643 17.7685 5.15147C17.9936 5.37652 18.12 5.68174 18.12 6C18.12 6.31826 17.9936 6.62348 17.7685 6.84853C17.5435 7.07357 17.2383 7.2 16.92 7.2H16.2C15.9636 7.2 15.7296 7.24656 15.5112 7.33702C15.2928 7.42748 15.0944 7.56006 14.9272 7.72721C14.7601 7.89435 14.6275 8.09278 14.537 8.31117C14.4466 8.52956 14.4 8.76362 14.4 9V10.8H16.92C17.2383 10.8 17.5435 10.9264 17.7685 11.1515C17.9936 11.3765 18.12 11.6817 18.12 12C18.12 12.3183 17.9936 12.6235 17.7685 12.8485C17.5435 13.0736 17.2383 13.2 16.92 13.2H14.4V21.6H19.2C19.8365 21.6 20.447 21.3471 20.8971 20.8971C21.3471 20.447 21.6 19.8365 21.6 19.2V4.8C21.6 4.16348 21.3471 3.55303 20.8971 3.10294C20.447 2.65286 19.8365 2.4 19.2 2.4H4.8Z"
+                                            fill="#FE0000" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_0_197">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Головна
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Про нас
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Обладнання
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Контакти
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Реанімаційне обладнання
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Операційне обладнання
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Обладнання для АШМД
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#">
+                                Слухові аппарати
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer__consultation">
+                        <p class="footer__consultation-text">
+                            Потрібна консультація?
+                        </p>
+                        <a class="footer__consultation-link" data-fancybox href="#contact-form">
+                            <span>
+                                Залишити заявку
+                            </span>
+                            <svg width="67" height="12" viewBox="0 0 67 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                    fill="#FE0000" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
