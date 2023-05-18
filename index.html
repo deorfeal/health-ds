@@ -20,6 +20,11 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
+                <button class="header__burger" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <nav class="header__menu menu">
                     <ul class="menu__list menu-list">
                         <li class="menu-list__item">
@@ -43,9 +48,9 @@
                                 </svg>
                             </button>
                             <ul class="menu-list__sublist menu-list-sublist">
-                                <li class="menu-list-sublist__item">
+                                <li class="menu-list-sublist__item" >
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span>
+                                        <span class="menu-list-sublist__btn-text" id="0"> 
                                             Для АШМД
                                         </span>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
@@ -55,10 +60,10 @@
                                                 fill="white" />
                                         </svg>
                                     </button>
-                                    <ul class="menu-list-sublist__list">
+                                    <ul class="menu-list-sublist__list" id="0">
                                         <li class="menu-list-sublist__list-item">
                                             <a class="menu-list-sublist__list-link" href="#">
-                                                Апарати ШВЛ
+                                                Апарати ШВЛ 1
                                             </a>
                                         </li>
                                         <li class="menu-list-sublist__list-item">
@@ -80,7 +85,7 @@
                                 </li>
                                 <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span>
+                                        <span class="menu-list-sublist__btn-text" id="1">
                                             Операційне
                                         </span>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
@@ -90,10 +95,10 @@
                                                 fill="white" />
                                         </svg>
                                     </button>
-                                    <ul class="menu-list-sublist__list">
+                                    <ul class="menu-list-sublist__list" id="1">
                                         <li class="menu-list-sublist__list-item">
                                             <a class="menu-list-sublist__list-link" href="#">
-                                                Апарати ШВЛ
+                                                Апарати ШВЛ 2
                                             </a>
                                         </li>
                                         <li class="menu-list-sublist__list-item">
@@ -115,7 +120,7 @@
                                 </li>
                                 <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span>
+                                        <span class="menu-list-sublist__btn-text" id="2">
                                             Реанімаційне
                                         </span>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
@@ -125,10 +130,10 @@
                                                 fill="white" />
                                         </svg>
                                     </button>
-                                    <ul class="menu-list-sublist__list">
+                                    <ul class="menu-list-sublist__list" id="2">
                                         <li class="menu-list-sublist__list-item">
                                             <a class="menu-list-sublist__list-link" href="#">
-                                                Апарати ШВЛ
+                                                Апарати ШВЛ 3
                                             </a>
                                         </li>
                                         <li class="menu-list-sublist__list-item">
@@ -148,9 +153,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="menu-list-sublist__item">
+                                <li class="menu-list-sublist__item" >
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span>
+                                        <span class="menu-list-sublist__btn-text" id="3">
                                             Слухові апарати
                                         </span>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
@@ -160,10 +165,10 @@
                                                 fill="white" />
                                         </svg>
                                     </button>
-                                    <ul class="menu-list-sublist__list">
+                                    <ul class="menu-list-sublist__list" id="3">
                                         <li class="menu-list-sublist__list-item">
                                             <a class="menu-list-sublist__list-link" href="#">
-                                                Апарати ШВЛ
+                                                Апарати ШВЛ 4
                                             </a>
                                         </li>
                                         <li class="menu-list-sublist__list-item">
@@ -238,7 +243,7 @@
                 </a>
             </div>
         </div>
-    </header>
+    </header> 
 
     <div class="wrapper">
         <main class="main">
@@ -545,48 +550,55 @@
             <section class="main__projects projects">
                 <div class="big-container">
                     <div class="projects__inner">
-                    <div class="projects__top heading-top">
-                        <h2 class="heading-top__title">
-                            наші проекти
-                        </h2>
-                        <p class="heading-top__text">
-                            реалізація медичних
-                            проектів
-                        </p>
-                    </div>
-                    <p class="projects__text">
-                        «Health Design» надає широкий спектр діагностичного, операційного та реанімаційного обладнання.
-                        Обладнання, яке ми пропонуємо від наших партнерів, відрізняється найвищим рівнем надійності та
-                        найвищим ступенем ефективності виявлення захворювань на ранніх стадіях.
-                    </p>
-                    <a class="projects__btn link" href="#">
-                        <span>
-                            Більше проектів
-                        </span>
-                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
-                                fill="#FE0000" />
-                        </svg>
-                    </a>
-                </div>
-                    <div class="projects-swiper__pagination swiper-pagination"></div>
-                    <div class="projects__swiper projects-swiper swiper">
-                        <div class="swiper-wrapper">
-                            <div class="projects-swiper__slide projects-slide swiper-slide">
-                                <img class="projects-slide__img" src="images/projects-swiper-img-1.jpg" alt="img">
+                        <div class="projects__wrapper">
+                            <div class="projects__top heading-top">
+                                <h2 class="heading-top__title">
+                                    наші проекти
+                                </h2>
+                                <p class="heading-top__text">
+                                    реалізація медичних
+                                    проектів
+                                </p>
                             </div>
-                            <div class="projects-swiper__slide projects-slide swiper-slide">
-                                <img class="projects-slide__img" src="images/projects-swiper-img-2.jpg" alt="img">
-                            </div>
-                            <div class="projects-swiper__slide projects-slide swiper-slide">
-                                <img class="projects-slide__img" src="images/projects-swiper-img-1.jpg" alt="img">
-                            </div>
-                            <div class="projects-swiper__slide projects-slide swiper-slide">
-                                <img class="projects-slide__img" src="images/projects-swiper-img-2.jpg" alt="img">
-                            </div>
+                            <p class="projects__text">
+                                «Health Design» надає широкий спектр діагностичного, операційного та реанімаційного
+                                обладнання.
+                                Обладнання, яке ми пропонуємо від наших партнерів, відрізняється найвищим рівнем
+                                надійності та
+                                найвищим ступенем ефективності виявлення захворювань на ранніх стадіях.
+                            </p>
+                            <a class="projects__btn link" href="#">
+                                <span>
+                                    Більше проектів
+                                </span>
+                                <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                        fill="#FE0000" />
+                                </svg>
+                            </a>
                         </div>
-
+                        <div class="projects-swiper__pagination swiper-pagination"></div>
+                        <div class="projects__slider-wrapper">
+                        <div class="projects__swiper projects-swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="projects-swiper__slide projects-slide swiper-slide">
+                                    <img class="projects-slide__img" src="images/projects-swiper-img-1.jpg" alt="img">
+                                </div>
+                                <div class="projects-swiper__slide projects-slide swiper-slide">
+                                    <img class="projects-slide__img" src="images/projects-swiper-img-2.jpg" alt="img">
+                                </div>
+                                <div class="projects-swiper__slide projects-slide swiper-slide">
+                                    <img class="projects-slide__img" src="images/projects-swiper-img-1.jpg" alt="img">
+                                </div>
+                                <div class="projects-swiper__slide projects-slide swiper-slide">
+                                    <img class="projects-slide__img" src="images/projects-swiper-img-2.jpg" alt="img">
+                                </div>
+                            </div>
+    
+                        </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -628,7 +640,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> 
             <section class="main__contact contact">
                 <div class="container">
                     <div class="contact__inner">
@@ -639,11 +651,30 @@
                             <h2 class="contact-form__title">
                                 виникли питання? будемо РАДІ ВІДПОВІСТИ!
                             </h2>
-                            <input class="contact-form__input" type="text" placeholder="Ім'я">
-                            <input class="contact-form__input" type="tel" placeholder="Телефон">
-                            <input class="contact-form__input" type="email" placeholder="E-mail">
-                            <textarea class="contact-form__textarea" name="" id="" cols="30" rows="5"
-                                placeholder="Коментар"></textarea>
+                            <div class="contact-form__box">
+                                <p class="contact-form__box-text">
+                                    Ім'я
+                                </p>
+                                <input class="contact-form__box-input" type="text">
+                            </div>
+                            <div class="contact-form__box">
+                                <p class="contact-form__box-text">
+                                    Телефон
+                                </p>
+                                <input class="contact-form__box-input" type="tel">
+                            </div>
+                            <div class="contact-form__box">
+                                <p class="contact-form__box-text">
+                                    E-mail
+                                </p>
+                                <input class="contact-form__box-input" type="email">
+                            </div>
+                            <div class="contact-form__box">
+                                <p class="contact-form__box-text">
+                                   Коментар
+                                </p>
+                                <textarea class="contact-form__box-textarea" name="" id="" cols="30" rows="5"></textarea>
+                            </div> 
                             <button class="contact__btn btn" type="submit">
                                 <span>
                                     відправити
@@ -660,7 +691,7 @@
                         </form>
                     </div>
                 </div>
-            </section>
+            </section> 
             <section class="main__top top">
                 <div class="container">
                     <div class="top__heading heading-top">
@@ -783,16 +814,35 @@
                         </a>
                     </div>
                 </div>
-            </section>
+            </section> 
             <form class="contact__form contact-form" id="contact-form" action="#">
                 <h2 class="contact-form__title">
                     виникли питання? будемо РАДІ ВІДПОВІСТИ!
                 </h2>
-                <input class="contact-form__input" type="text" placeholder="Ім'я">
-                <input class="contact-form__input" type="tel" placeholder="Телефон">
-                <input class="contact-form__input" type="email" placeholder="E-mail">
-                <textarea class="contact-form__textarea" name="" id="" cols="30" rows="5"
-                    placeholder="Коментар"></textarea>
+                <div class="contact-form__box">
+                    <p class="contact-form__box-text">
+                        Ім'я
+                    </p>
+                    <input class="contact-form__box-input" type="text">
+                </div>
+                <div class="contact-form__box">
+                    <p class="contact-form__box-text">
+                        Телефон
+                    </p>
+                    <input class="contact-form__box-input" type="tel">
+                </div>
+                <div class="contact-form__box">
+                    <p class="contact-form__box-text">
+                        E-mail
+                    </p>
+                    <input class="contact-form__box-input" type="email">
+                </div>
+                <div class="contact-form__box">
+                    <p class="contact-form__box-text">
+                       Коментар
+                    </p>
+                    <textarea class="contact-form__box-textarea" name="" id="" cols="30" rows="5"></textarea>
+                </div> 
                 <button class="contact__btn btn" type="submit">
                     <span>
                         відправити
@@ -806,7 +856,7 @@
                         </svg>
                     </span>
                 </button>
-            </form>
+            </form> 
         </main>
         <footer class="footer">
             <div class="container">
@@ -859,6 +909,7 @@
                             </a>
                         </div>
                     </div>
+                    <div class="footer__wrapper">
                     <ul class="footer__list">
                         <li class="footer__list-item">
                             <a class="footer__list-link" href="#">
@@ -903,6 +954,7 @@
                             </a>
                         </li>
                     </ul>
+                </div>
                     <div class="footer__consultation">
                         <p class="footer__consultation-text">
                             Потрібна консультація?
@@ -920,7 +972,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> 
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
