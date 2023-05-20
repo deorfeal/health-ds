@@ -200,8 +200,8 @@
                 <a class="header__logo" href="#">
                     <img class="logo__img" src="images/logo.svg" alt="logo">
                 </a>
-                <form class="header__form" action="#">
-                    <button class="header__form-btn" type="button">
+                <form class="header__form header__form" action="#">
+                    <a class="header__form-btn" data-fancybox="" href="#search-form">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_101_15)">
                                 <path
@@ -216,24 +216,29 @@
                                 </clipPath>
                             </defs>
                         </svg>
-
-                    </button>
-                    <input class="header__form-input" type="text" name="" id="">
+                    </a>
                 </form>
                 <div class="header__lang header-lang">
                     <div class="header-lang__top">
-                        <p class="header-lang__top-text">
-                            UK
+                        <p class="header-lang__top-text header-lang__top-text--active" id="0">
+                            <span>
+                                UK
+                            </span>
+                        </p>
+                        <p class="header-lang__top-text" id="1">
+                            <span>
+                                RU
+                            </span>
                         </p>
                         <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.7144 1L7.21436 8L0.714356 0.999999" stroke="#0B0B0B" />
                         </svg>
                     </div>
                     <div class="header-lang__inner">
-                        <button class="header-lang__btn" type="button">
+                        <button class="header-lang__btn" type="button" id="0">
                             UK
                         </button>
-                        <button class="header-lang__btn" type="button">
+                        <button class="header-lang__btn" type="button" id="1">
                             RU
                         </button>
                     </div>
@@ -388,7 +393,6 @@
                                             <input type="checkbox">
                                             <span class="checkmark"></span>
                                         </label>
-                                        <!--  -->
                                         <label class="container">
                                             Переносна платформа
                                             <input type="checkbox">
@@ -489,9 +493,14 @@
                         </form>
                         <form class="catalog-top__sort sort" action="#">
                             <button class="sort__btn" type="button">
-                                <span>
-                                    Сортування
-                                </span>
+                                <div class="custom-select" style="width:200px;">
+                                    <select>
+                                      <option value="0">Сортування</option>
+                                      <option value="1">Пункт 1</option>
+                                      <option value="1">Пункт 2</option>
+                                      <option value="1">Пункт ...</option>
+                                    </select>
+                                  </div>
                                 <span>
                                     <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -887,28 +896,28 @@
                 <div class="container">
                     <div class="contact__inner">
                         <div class="contact__img">
-                            <img class="contact__img-image" src="images/contact-img-2.jpg" alt="img">
+                            <img class="contact__img-image" src="images/contact-img-2.webp" alt="img">
                         </div>
                         <form class="contact__form contact-form" action="#">
                             <h2 class="contact-form__title">
                                 виникли питання? будемо РАДІ ВІДПОВІСТИ!
                             </h2>
                             <div class="contact-form__box">
-                                <p class="contact-form__box-text">
+                                <label class="contact-form__box-text">
                                     Ім'я
-                                </p>
+                                </label>
                                 <input class="contact-form__box-input" type="text">
                             </div>
                             <div class="contact-form__box">
-                                <p class="contact-form__box-text">
+                                <label class="contact-form__box-text">
                                     Телефон
-                                </p>
+                                </label>
                                 <input class="contact-form__box-input" type="tel">
                             </div>
                             <div class="contact-form__box">
-                                <p class="contact-form__box-text">
+                                <label class="contact-form__box-text">
                                     E-mail
-                                </p>
+                                </label>
                                 <input class="contact-form__box-input" type="email">
                             </div>
                             <div class="contact-form__box">
@@ -930,17 +939,17 @@
                                     </svg>
                                 </span>
                             </button>
-                        </form>
+                        </form> 
                     </div>
                 </div>
             </section>
-            <section class="main__reviewed reviewed">
+            <section class="main__top top">
                 <div class="container">
-                    <h2 class="reviewed__title">
+                    <h2 class="top__title">
                         переглянуті товари
                     </h2>
-                    <div class="reviewed__inner">
-                        <a href="#" class="reviewed__item card-item">
+                    <div class="top__inner">
+                        <a href="#" class="top__item card-item">
                             <div class="card-item__img">
                                 <img class="card-item__img-image" src="images/top-img-1.png" alt="img">
                             </div>
@@ -1056,21 +1065,21 @@
                     виникли питання? будемо РАДІ ВІДПОВІСТИ!
                 </h2>
                 <div class="contact-form__box">
-                    <p class="contact-form__box-text">
+                    <label class="contact-form__box-text">
                         Ім'я
-                    </p>
+                    </label>
                     <input class="contact-form__box-input" type="text">
                 </div>
                 <div class="contact-form__box">
-                    <p class="contact-form__box-text">
+                    <label class="contact-form__box-text">
                         Телефон
-                    </p>
+                    </label>
                     <input class="contact-form__box-input" type="tel">
                 </div>
                 <div class="contact-form__box">
-                    <p class="contact-form__box-text">
+                    <label class="contact-form__box-text">
                         E-mail
-                    </p>
+                    </label>
                     <input class="contact-form__box-input" type="email">
                 </div>
                 <div class="contact-form__box">
@@ -1092,6 +1101,38 @@
                         </svg>
                     </span>
                 </button>
+            </form> 
+            <form class="main__search-form search-form" id="search-form" action="#">
+                <div class="search-form__top search-form-top">
+                    <input class="search-form-top__input" type="text" placeholder="Пошук">
+                    <button class="search-form-top__btn" type="submit">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_101_15)">
+                                <path
+                                    d="M10.1486 19.44C15.2801 19.44 19.44 15.2801 19.44 10.1486C19.44 5.01709 15.2801 0.857178 10.1486 0.857178C5.01706 0.857178 0.857147 5.01709 0.857147 10.1486C0.857147 15.2801 5.01706 19.44 10.1486 19.44Z"
+                                    stroke="#0B0B0B" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M23.1429 23.1429L16.7143 16.7144" stroke="#0B0B0B" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_101_15">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+                <div class="search-form__results">
+                    <p class="search-form__results-text">
+                        Result 1
+                    </p>
+                    <p class="search-form__results-text">
+                        Result 2
+                    </p>
+                    <p class="search-form__results-text">
+                        Result ...
+                    </p>
+                </div>
             </form>
         </main>
         <footer class="footer">
@@ -1145,50 +1186,52 @@
                             </a>
                         </div>
                     </div>
-                    <ul class="footer__list">
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Головна
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Про нас
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Обладнання
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Контакти
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="footer__list">
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Реанімаційне обладнання
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Операційне обладнання
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Обладнання для АШМД
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__list-link" href="#">
-                                Слухові аппарати
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="footer__wrapper">
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Головна
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Про нас
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Обладнання
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Контакти
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Реанімаційне обладнання
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Операційне обладнання
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Обладнання для АШМД
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="#">
+                                    Слухові аппарати
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="footer__consultation">
                         <p class="footer__consultation-text">
                             Потрібна консультація?
