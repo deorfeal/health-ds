@@ -48,9 +48,9 @@
                                 </svg>
                             </button>
                             <ul class="menu-list__sublist menu-list-sublist">
-                                <li class="menu-list-sublist__item" >
+                                <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span class="menu-list-sublist__btn-text" id="0"> 
+                                        <span class="menu-list-sublist__btn-text" id="0">
                                             Для АШМД
                                         </span>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
@@ -153,7 +153,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="menu-list-sublist__item" >
+                                <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
                                         <span class="menu-list-sublist__btn-text" id="3">
                                             Слухові апарати
@@ -248,7 +248,7 @@
                 </a>
             </div>
         </div>
-    </header> 
+    </header>
 
     <div class="wrapper">
         <main class="main">
@@ -316,7 +316,8 @@
                                 </a>
                                 <a href="#" class="product-info-view-content__item card-item" id="1">
                                     <div class="card-item__img">
-                                        <img class="card-item__img-image" src="images/product-info-img-2.webp" alt="img">
+                                        <img class="card-item__img-image" src="images/product-info-img-2.webp"
+                                            alt="img">
                                     </div>
                                     <!-- <p class="card-item__suptext">
                                         TOP
@@ -330,7 +331,8 @@
                                 </a>
                                 <a href="#" class="product-info-view-content__item card-item" id="2">
                                     <div class="card-item__img">
-                                        <img class="card-item__img-image" src="images/product-info-img-3.webp" alt="img">
+                                        <img class="card-item__img-image" src="images/product-info-img-3.webp"
+                                            alt="img">
                                     </div>
                                     <!-- <p class="card-item__suptext">
                                         TOP
@@ -346,17 +348,30 @@
                             <div class="product-info-view__swiper product-info-view-swiper swiper">
                                 <div class="swiper-wrapper">
                                     <div class="product-info-view-swiper__slide product-info-view-slide swiper-slide"
-                                        id="0">
-                                        <img class="product-info-view-slide__img" src="images/top-img-2.png"
-                                            alt="img">
+                                        id="0" onclick="slideToSlide(0)">
+                                        <img class="product-info-view-slide__img" src="images/top-img-2.png" alt="img">
                                     </div>
                                     <div class="product-info-view-swiper__slide product-info-view-slide swiper-slide"
-                                        id="1">
+                                        id="1" onclick="slideToSlide(1)">
                                         <img class="product-info-view-slide__img" src="images/product-info-img-2.webp"
                                             alt="img">
                                     </div>
                                     <div class="product-info-view-swiper__slide product-info-view-slide swiper-slide"
-                                        id="2">
+                                        id="2" onclick="slideToSlide(2)">
+                                        <img class="product-info-view-slide__img" src="images/product-info-img-3.webp"
+                                            alt="img">
+                                    </div>
+                                    <div class="product-info-view-swiper__slide product-info-view-slide swiper-slide"
+                                        id="0" onclick="slideToSlide(3)">
+                                        <img class="product-info-view-slide__img" src="images/top-img-2.png" alt="img">
+                                    </div>
+                                    <div class="product-info-view-swiper__slide product-info-view-slide swiper-slide"
+                                        id="1" onclick="slideToSlide(4)">
+                                        <img class="product-info-view-slide__img" src="images/product-info-img-2.webp"
+                                            alt="img">
+                                    </div>
+                                    <div class="product-info-view-swiper__slide product-info-view-slide swiper-slide"
+                                        id="2" onclick="slideToSlide(5)">
                                         <img class="product-info-view-slide__img" src="images/product-info-img-3.webp"
                                             alt="img">
                                     </div>
@@ -422,11 +437,12 @@
                         <div class="about-product__wrapper about-product__wrapper--active" id="0">
                             <div class="about-product__box">
                                 <h3 class="about-product__box-title">
-                                    Особливості 
+                                    Особливості
                                 </h3>
                                 <p class="about-product__box-text">
                                     Багатоцільовий апарат ШВЛ з додатковим підключенням 5G
-                                    Чіткий сенсорний екран з інтерактивним інтерфейсом і блокуванням екрана для забезпечення
+                                    Чіткий сенсорний екран з інтерактивним інтерфейсом і блокуванням екрана для
+                                    забезпечення
                                     безпечної роботи
                                     T5 забезпечує широкі режими вентиляції, такі як HFNC, неінвазивна та інвазивна
                                     вентиляція тощо. Він може задовольнити різні клінічні вимоги для широкого кола
@@ -436,7 +452,8 @@
                                     Портативний дизайн
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Компактний розмір і легка вага, оснащений портативною мобільною стійкою, яка полегшує
+                                    Компактний розмір і легка вага, оснащений портативною мобільною стійкою, яка
+                                    полегшує
                                     переміщення або використання в машині швидкої допомоги.
                                 </p>
                             </div>
@@ -445,7 +462,8 @@
                                     Адаптивність
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Різні режими вентиляції забезпечують чудову адаптацію до будь-яких вимогливих клінічних
+                                    Різні режими вентиляції забезпечують чудову адаптацію до будь-яких вимогливих
+                                    клінічних
                                     сценаріїв. Таким чином, T5 може запропонувати найбільш підходящу терапію підтримки
                                     дихання для широкого кола пацієнтів.
                                 </p>
@@ -453,7 +471,8 @@
                                     Підключення 5G
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Підтримка інтелектуального підключення 5G для відображення та передачі даних у режимі
+                                    Підтримка інтелектуального підключення 5G для відображення та передачі даних у
+                                    режимі
                                     реального часу.
                                 </p>
                             </div>
@@ -465,7 +484,8 @@
                                 </h3>
                                 <p class="about-product__box-text">
                                     Багатоцільовий апарат ШВЛ з додатковим підключенням 5G
-                                    Чіткий сенсорний екран з інтерактивним інтерфейсом і блокуванням екрана для забезпечення
+                                    Чіткий сенсорний екран з інтерактивним інтерфейсом і блокуванням екрана для
+                                    забезпечення
                                     безпечної роботи
                                     T5 забезпечує широкі режими вентиляції, такі як HFNC, неінвазивна та інвазивна
                                     вентиляція тощо. Він може задовольнити різні клінічні вимоги для широкого кола
@@ -475,7 +495,8 @@
                                     Портативний дизайн
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Компактний розмір і легка вага, оснащений портативною мобільною стійкою, яка полегшує
+                                    Компактний розмір і легка вага, оснащений портативною мобільною стійкою, яка
+                                    полегшує
                                     переміщення або використання в машині швидкої допомоги.
                                 </p>
                             </div>
@@ -484,7 +505,8 @@
                                     Адаптивність
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Різні режими вентиляції забезпечують чудову адаптацію до будь-яких вимогливих клінічних
+                                    Різні режими вентиляції забезпечують чудову адаптацію до будь-яких вимогливих
+                                    клінічних
                                     сценаріїв. Таким чином, T5 може запропонувати найбільш підходящу терапію підтримки
                                     дихання для широкого кола пацієнтів.
                                 </p>
@@ -492,7 +514,8 @@
                                     Підключення 5G
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Підтримка інтелектуального підключення 5G для відображення та передачі даних у режимі
+                                    Підтримка інтелектуального підключення 5G для відображення та передачі даних у
+                                    режимі
                                     реального часу.
                                 </p>
                             </div>
@@ -504,7 +527,8 @@
                                 </h3>
                                 <p class="about-product__box-text">
                                     Багатоцільовий апарат ШВЛ з додатковим підключенням 5G
-                                    Чіткий сенсорний екран з інтерактивним інтерфейсом і блокуванням екрана для забезпечення
+                                    Чіткий сенсорний екран з інтерактивним інтерфейсом і блокуванням екрана для
+                                    забезпечення
                                     безпечної роботи
                                     T5 забезпечує широкі режими вентиляції, такі як HFNC, неінвазивна та інвазивна
                                     вентиляція тощо. Він може задовольнити різні клінічні вимоги для широкого кола
@@ -514,7 +538,8 @@
                                     Портативний дизайн
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Компактний розмір і легка вага, оснащений портативною мобільною стійкою, яка полегшує
+                                    Компактний розмір і легка вага, оснащений портативною мобільною стійкою, яка
+                                    полегшує
                                     переміщення або використання в машині швидкої допомоги.
                                 </p>
                             </div>
@@ -523,7 +548,8 @@
                                     Адаптивність
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Різні режими вентиляції забезпечують чудову адаптацію до будь-яких вимогливих клінічних
+                                    Різні режими вентиляції забезпечують чудову адаптацію до будь-яких вимогливих
+                                    клінічних
                                     сценаріїв. Таким чином, T5 може запропонувати найбільш підходящу терапію підтримки
                                     дихання для широкого кола пацієнтів.
                                 </p>
@@ -531,62 +557,66 @@
                                     Підключення 5G
                                 </h3>
                                 <p class="about-product__box-text">
-                                    Підтримка інтелектуального підключення 5G для відображення та передачі даних у режимі
+                                    Підтримка інтелектуального підключення 5G для відображення та передачі даних у
+                                    режимі
                                     реального часу.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> 
-            <section class="main__contact contact">
-                <div class="container">
+            </section>
+            <section class="main__contact contact contact--grey">
+                <div class="big-container">
                     <div class="contact__inner">
                         <div class="contact__img">
                             <img class="contact__img-image" src="images/contact-img-2.webp" alt="img">
                         </div>
-                        <form class="contact__form contact-form" action="#">
-                            <h2 class="contact-form__title">
-                                виникли питання? будемо РАДІ ВІДПОВІСТИ!
-                            </h2>
-                            <div class="contact-form__box">
-                                <label class="contact-form__box-text">
-                                    Ім'я
-                                </label>
-                                <input class="contact-form__box-input" type="text">
-                            </div>
-                            <div class="contact-form__box">
-                                <label class="contact-form__box-text">
-                                    Телефон
-                                </label>
-                                <input class="contact-form__box-input" type="tel">
-                            </div>
-                            <div class="contact-form__box">
-                                <label class="contact-form__box-text">
-                                    E-mail
-                                </label>
-                                <input class="contact-form__box-input" type="email">
-                            </div>
-                            <div class="contact-form__box">
-                                <p class="contact-form__box-text">
-                                   Коментар
-                                </p>
-                                <textarea class="contact-form__box-textarea" name="" id="" cols="30" rows="5"></textarea>
-                            </div> 
-                            <button class="contact__btn btn" type="submit">
-                                <span>
-                                    відправити
-                                </span>
-                                <span>
-                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
-                                            fill="white" />
-                                    </svg>
-                                </span>
-                            </button>
-                        </form> 
+                        <div class="container">
+                            <form class="contact__form contact-form" action="#">
+                                <h2 class="contact-form__title">
+                                    виникли питання? будемо РАДІ ВІДПОВІСТИ!
+                                </h2>
+                                <div class="contact-form__box">
+                                    <label class="contact-form__box-text">
+                                        Ім'я
+                                    </label>
+                                    <input class="contact-form__box-input" type="text">
+                                </div>
+                                <div class="contact-form__box">
+                                    <label class="contact-form__box-text">
+                                        Телефон
+                                    </label>
+                                    <input class="contact-form__box-input" type="tel">
+                                </div>
+                                <div class="contact-form__box">
+                                    <label class="contact-form__box-text">
+                                        E-mail
+                                    </label>
+                                    <input class="contact-form__box-input" type="email">
+                                </div>
+                                <div class="contact-form__box">
+                                    <p class="contact-form__box-text">
+                                        Коментар
+                                    </p>
+                                    <textarea class="contact-form__box-textarea" name="" id="" cols="30"
+                                        rows="5"></textarea>
+                                </div>
+                                <button class="contact__btn btn" type="submit">
+                                    <span>
+                                        відправити
+                                    </span>
+                                    <span>
+                                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                fill="white" />
+                                        </svg>
+                                    </span>
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -731,24 +761,23 @@
                 </div>
                 <div class="contact-form__box">
                     <p class="contact-form__box-text">
-                       Коментар
+                        Коментар
                     </p>
                     <textarea class="contact-form__box-textarea" name="" id="" cols="30" rows="5"></textarea>
-                </div> 
+                </div>
                 <button class="contact__btn btn" type="submit">
                     <span>
                         відправити
                     </span>
                     <span>
-                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg width="67" height="12" viewBox="0 0 67 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
                                 fill="white" />
                         </svg>
                     </span>
                 </button>
-            </form> 
+            </form>
             <form class="main__search-form search-form" id="search-form" action="#">
                 <div class="search-form__top search-form-top">
                     <input class="search-form-top__input" type="text" placeholder="Пошук">
