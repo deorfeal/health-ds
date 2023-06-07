@@ -18,7 +18,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
                 <button class="header__burger" type="button">
@@ -51,9 +51,9 @@
                             <ul class="menu-list__sublist menu-list-sublist">
                                 <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span class="menu-list-sublist__btn-text" id="0">
+                                        <a class="menu-list-sublist__btn-text" id="0" href="#">
                                             Для АШМД
-                                        </span>
+                                        </a>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -86,9 +86,9 @@
                                 </li>
                                 <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span class="menu-list-sublist__btn-text" id="1">
+                                        <a class="menu-list-sublist__btn-text" href="#" id="1">
                                             Операційне
-                                        </span>
+                                        </a>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -121,9 +121,9 @@
                                 </li>
                                 <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span class="menu-list-sublist__btn-text" id="2">
+                                        <a class="menu-list-sublist__btn-text" href="#" id="2">
                                             Реанімаційне
-                                        </span>
+                                        </a>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -156,9 +156,9 @@
                                 </li>
                                 <li class="menu-list-sublist__item">
                                     <button class="menu-list-sublist__btn" type="button">
-                                        <span class="menu-list-sublist__btn-text" id="3">
+                                        <a class="menu-list-sublist__btn-text" href="#" id="3">
                                             Слухові апарати
-                                        </span>
+                                        </a>
                                         <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -219,30 +219,12 @@
                         </svg>
                     </a>
                 </form>
-                <div class="header__lang header-lang">
-                    <div class="header-lang__top">
-                        <p class="header-lang__top-text header-lang__top-text--active" id="0">
-                            <span>
-                                UK
-                            </span>
-                        </p>
-                        <p class="header-lang__top-text" id="1">
-                            <span>
-                                RU
-                            </span>
-                        </p>
-                        <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13.7144 1L7.21436 8L0.714356 0.999999" stroke="#0B0B0B" />
-                        </svg>
-                    </div>
-                    <div class="header-lang__inner">
-                        <button class="header-lang__btn" type="button" id="0">
-                            UK
-                        </button>
-                        <button class="header-lang__btn" type="button" id="1">
-                            RU
-                        </button>
-                    </div>
+                <div class="header__lang header-lang custom-select">
+                    <select>
+                        <option value="0">UK</option>
+                        <option value="1">UK</option>
+                        <option value="2">RU</option>
+                    </select>
                 </div>
                 <a class="header__link" href="tel:+380502431291">
                     +38 050 243 12 91
@@ -904,6 +886,14 @@
                 </div>
             </form>
         </main>
+        <a class="arrow-up" href="#header">
+            <svg width="12" height="26" viewBox="0 0 12 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M6.53033 0.469669C6.23744 0.176777 5.76256 0.176777 5.46967 0.469669L0.696698 5.24264C0.403805 5.53553 0.403805 6.01041 0.696698 6.3033C0.989592 6.59619 1.46447 6.59619 1.75736 6.3033L6 2.06066L10.2426 6.3033C10.5355 6.59619 11.0104 6.59619 11.3033 6.3033C11.5962 6.01041 11.5962 5.53553 11.3033 5.24264L6.53033 0.469669ZM6.75 26L6.75 1L5.25 1L5.25 26L6.75 26Z"
+                    fill="#0B0B0B" />
+            </svg>
+
+        </a>
         <footer class="footer">
             <div class="container">
                 <a class="footer__logo logo" href="#">
