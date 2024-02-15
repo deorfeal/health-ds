@@ -8,6 +8,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!--  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  -->
+
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +25,8 @@
 
     <header class="header" id="header">
         <div class="container">
-            <div class="header__inner">
+            <!--  -->
+            <div class="header__inner" data-aos="fade-down" data-aos-duration="1250">
                 <button class="header__burger" type="button">
                     <span></span>
                     <span></span>
@@ -199,7 +205,7 @@
                     </ul>
                 </nav>
                 <a class="header__logo" href="#">
-                    <img class="logo__img" src="images/logo.svg" alt="logo">
+                    <img class="logo__img" src="images/logo-2.svg" alt="logo">
                 </a>
                 <form class="header__form header__form" action="#">
                     <a class="header__form-btn" data-fancybox="" href="#search-form">
@@ -235,33 +241,47 @@
 
     <div class="wrapper">
         <main class="main">
+            <!--  -->
+            <div class="main__banner banner">
+                <div class="banner__inner">
+                    <div class="banner__bg"></div>
+                    <div class="banner__logo logo">
+                        <img class="logo__img" src="images/logo-2.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+            <div class="circle"></div>
+            <!--  -->
             <section class="main__section-top section-top">
                 <div class="big-container">
                     <div class="section-top__swiper section-top-swiper swiper">
                         <div class="swiper-wrapper">
                             <div class="section-top-swiper__slide section-top-slide  swiper-slide">
                                 <div class="section-top-slide__box section-top-slide-box">
-                                    <img class="section-top-slide-box__img" src="images/section-top-img.webp" alt="img">
+                                    <img class="section-top-slide-box__img" src="images/section-top-img.webp" alt="img"
+                                        ata-aos="zoom-in">
                                     <div class="container">
                                         <div class="section-top-slide-box__inner">
-                                            <h1 class="section-top-slide-box__title">
+                                            <h1 class="section-top-slide-box__title" data-aos="fade-right">
                                                 HEALTH DESIGN
                                             </h1>
-                                            <p class="section-top-slide-box__text">
+                                            <p class="section-top-slide-box__text" data-aos="fade-right" data-aos-duration="1000">
                                                 медичне та лабораторне обладнання
                                                 від світових виробників
                                             </p>
-                                            <a class="section-top-slide-box__link btn" href="#">
-                                                <span>
-                                                    каталог
-                                                </span>
-                                                <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
-                                                        fill="white" />
-                                                </svg>
-                                            </a>
+                                            <div class="section-top-slide-box__wrap" data-aos="fade-right" data-aos-duration="1250">
+                                                <a class="section-top-slide-box__link btn" href="#">
+                                                    <span>
+                                                        каталог
+                                                    </span>
+                                                    <svg width="67" height="12" viewBox="0 0 67 12" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M66.5303 6.53033C66.8232 6.23744 66.8232 5.76256 66.5303 5.46967L61.7574 0.696699C61.4645 0.403806 60.9896 0.403806 60.6967 0.696699C60.4038 0.989593 60.4038 1.46447 60.6967 1.75736L64.9393 6L60.6967 10.2426C60.4038 10.5355 60.4038 11.0104 60.6967 11.3033C60.9896 11.5962 61.4645 11.5962 61.7574 11.3033L66.5303 6.53033ZM0 6.75H66V5.25H0V6.75Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1017,6 +1037,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--  -->
     <script src="js/main.min.js"></script>
 </body>
 
